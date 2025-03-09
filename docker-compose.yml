@@ -1,0 +1,11 @@
+services:
+  jshop_web:
+    container_name: jshop_web
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - 8094:3000
+    env_file:
+      - .env.local
