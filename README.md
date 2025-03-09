@@ -42,7 +42,7 @@ npm run build
 npm run start # for production
 ```
 
-### 7. Access API Documentation
+### 5. Accessing The JSHOP Web
 Once the server is running, you can access on the Web browser:
 ```bash
 http://localhost:3000
